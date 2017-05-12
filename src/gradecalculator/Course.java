@@ -97,18 +97,20 @@ public class Course {
             year.addModule(module);
             
             module = new Module("AINT252", "Computation Theory & Artificial Intelligence", 20);
-                assessment = new Assessment(1.0, 0.00, AssessmentType.COURSEWORK);
+                assessment = new Assessment(0.5, 81.67, AssessmentType.COURSEWORK);
+                module.addAssessment(assessment);
+                assessment = new Assessment(0.5, 0.00, AssessmentType.EXAM);
                 module.addAssessment(assessment);
             year.addModule(module);
         this.addYear(year);
         
         //Year 3
         year = new Year(0.60);
-            module = new Module("MATH1607PP", "The Quantum Universe", 20);
+/*            module = new Module("MATH1607PP", "The Quantum Universe", 20);
                 assessment = new Assessment(1.0, 0.00, AssessmentType.COURSEWORK);
                 module.addAssessment(assessment);
             year.addModule(module);
-        this.addYear(year);
+        this.addYear(year);*/
         
         System.out.println(this.calculateCourseGrade());
     }
