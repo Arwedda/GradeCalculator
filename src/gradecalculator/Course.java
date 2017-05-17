@@ -85,12 +85,12 @@ public class Course {
             year.addModule(module);
                         
             module = new Module("PRCS251", "Computer Science Integrating Project", 20);
-                assessment = new Assessment(1.0, 0.00, AssessmentType.COURSEWORK);
+                assessment = new Assessment(1.0, 80.00, AssessmentType.COURSEWORK);
                 module.addAssessment(assessment);
             year.addModule(module);
             
             module = new Module("SOFT253", "Computer Science Immersive Introduction", 20);
-                assessment = new Assessment(0.5, 0.00, AssessmentType.COURSEWORK);
+                assessment = new Assessment(0.5, 64.00, AssessmentType.COURSEWORK);
                 module.addAssessment(assessment);
                 assessment = new Assessment(0.5, 0.00, AssessmentType.EXAM);
                 module.addAssessment(assessment);
