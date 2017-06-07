@@ -99,7 +99,7 @@ public class Course {
             module = new Module("AINT252", "Computation Theory & Artificial Intelligence", 20);
                 assessment = new Assessment(0.5, 81.67, AssessmentType.COURSEWORK);
                 module.addAssessment(assessment);
-                assessment = new Assessment(0.5, 0.00, AssessmentType.EXAM);
+                assessment = new Assessment(0.5, 75.00, AssessmentType.EXAM);
                 module.addAssessment(assessment);
             year.addModule(module);
         this.addYear(year);
