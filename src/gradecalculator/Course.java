@@ -25,87 +25,120 @@ public class Course {
 /*          Discard lowest 2 grades for first year
 
             Module module = new Module("ISAD151", "Databases: Analysis, Design & Development", 20);
-                Assessment assessment = new Assessment(0.6, 89.00, AssessmentType.COURSEWORK);
-                module.addAssessment(assessment);
-                assessment = new Assessment(0.4, 50.00, AssessmentType.EXAM);
-                module.addAssessment(assessment);
+            Assessment assessment = new Assessment(0.6, 89.00, AssessmentType.COURSEWORK);
+            module.addAssessment(assessment);
+            assessment = new Assessment(0.4, 50.00, AssessmentType.EXAM);
+            module.addAssessment(assessment);
             year.addModule(module);
 
             module = new Module("SOFT152", "Software Engineering", 20);
-                assessment = new Assessment(1.0, 71.89, AssessmentType.COURSEWORK);
-                module.addAssessment(assessment);
+            assessment = new Assessment(1.0, 71.89, AssessmentType.COURSEWORK);
+            module.addAssessment(assessment);
             year.addModule(module);
 */            
-            Module module = new Module("MATH1607PP", "The Quantum Universe", 20);
-                Assessment assessment = new Assessment(1.0, 83.50, AssessmentType.COURSEWORK);
-                module.addAssessment(assessment);
-            year.addModule(module);
-            
-            module = new Module("NET103", "Principles of Infrastructure", 20);
-                assessment = new Assessment(0.5, 74.00, AssessmentType.COURSEWORK);
-                module.addAssessment(assessment);
-                assessment = new Assessment(0.5, 82.00, AssessmentType.EXAM);
-                module.addAssessment(assessment);
-            year.addModule(module);
-            
-            module = new Module("SOFT153", "Algorithms, Data Structures & Mathematics", 20);
-                assessment = new Assessment(0.5, 90.34 + .405, AssessmentType.COURSEWORK);
-                module.addAssessment(assessment);
-                assessment = new Assessment(0.5, 86.25 + .405, AssessmentType.EXAM);
-                module.addAssessment(assessment);
-            year.addModule(module);
-                        
-            module = new Module("SOFT155", "Computer Science Immersive Introduction", 20);
-                assessment = new Assessment(1.0, 75.00, AssessmentType.COURSEWORK);
-                module.addAssessment(assessment);
-            year.addModule(module);
+        Module module = new Module("MATH1607PP", "The Quantum Universe", 20);
+        Assessment assessment = new Assessment(1.0, 83.50, AssessmentType.COURSEWORK);
+        module.addAssessment(assessment);
+        year.addModule(module);
+
+        module = new Module("NET103", "Principles of Infrastructure", 20);
+        assessment = new Assessment(0.5, 74.00, AssessmentType.COURSEWORK);
+        module.addAssessment(assessment);
+        assessment = new Assessment(0.5, 82.00, AssessmentType.EXAM);
+        module.addAssessment(assessment);
+        year.addModule(module);
+
+        module = new Module("SOFT153", "Algorithms, Data Structures & Mathematics", 20);
+        assessment = new Assessment(0.5, 90.34 + .405, AssessmentType.COURSEWORK);
+        module.addAssessment(assessment);
+        assessment = new Assessment(0.5, 86.25 + .405, AssessmentType.EXAM);
+        module.addAssessment(assessment);
+        year.addModule(module);
+
+        module = new Module("SOFT155", "Computer Science Immersive Introduction", 20);
+        assessment = new Assessment(1.0, 75.00, AssessmentType.COURSEWORK);
+        module.addAssessment(assessment);
+        year.addModule(module);
         this.addYear(year);
 
         //Year 2
         year = new Year(0.30);
-            module = new Module("ISAD251", "Database Applications Development", 20);
-                assessment = new Assessment(0.5, 87.00, AssessmentType.COURSEWORK);
-                module.addAssessment(assessment);
-                assessment = new Assessment(0.5, 86.00, AssessmentType.EXAM);
-                module.addAssessment(assessment);
-            year.addModule(module);
+        module = new Module("ISAD251", "Database Applications Development", 20);
+        assessment = new Assessment(0.5, 87.00, AssessmentType.COURSEWORK);
+        module.addAssessment(assessment);
+        assessment = new Assessment(0.5, 86.00, AssessmentType.EXAM);
+        module.addAssessment(assessment);
+        year.addModule(module);
             
-            module = new Module("ISAD260", "User-Centred Interface Design", 20);
-                assessment = new Assessment(0.5, 80.00, AssessmentType.COURSEWORK);
-                module.addAssessment(assessment);
-                assessment = new Assessment(0.5, 70.00, AssessmentType.COURSEWORK);
-                module.addAssessment(assessment);
-            year.addModule(module);
+        module = new Module("ISAD260", "User-Centred Interface Design", 20);
+        assessment = new Assessment(0.5, 80.00, AssessmentType.COURSEWORK);
+        module.addAssessment(assessment);
+        assessment = new Assessment(0.5, 70.00, AssessmentType.COURSEWORK);
+        module.addAssessment(assessment);
+        year.addModule(module);
             
-            module = new Module("SOFT252", "Object-oriented Software Engineering with Design Patterns", 20);
-                assessment = new Assessment(0.3, 79.41, AssessmentType.EXAM);
-                module.addAssessment(assessment);
-                assessment = new Assessment(0.7, 71.5, AssessmentType.COURSEWORK);
-                module.addAssessment(assessment);
-            year.addModule(module);
+        module = new Module("SOFT252", "Object-oriented Software Engineering with Design Patterns", 20);
+        assessment = new Assessment(0.3, 79.41, AssessmentType.EXAM);
+        module.addAssessment(assessment);
+        assessment = new Assessment(0.7, 71.5, AssessmentType.COURSEWORK);
+        module.addAssessment(assessment);
+        year.addModule(module);
                         
-            module = new Module("PRCS251", "Computer Science Integrating Project", 20);
-                assessment = new Assessment(1.0, 75.43, AssessmentType.COURSEWORK);
-                module.addAssessment(assessment);
-            year.addModule(module);
+        module = new Module("PRCS251", "Computer Science Integrating Project", 20);
+        assessment = new Assessment(1.0, 75.43, AssessmentType.COURSEWORK);
+        module.addAssessment(assessment);
+        year.addModule(module);
             
-            module = new Module("SOFT253", "Computer Science Immersive Introduction", 20);
-                assessment = new Assessment(0.5, 64.00, AssessmentType.COURSEWORK);
-                module.addAssessment(assessment);
-                assessment = new Assessment(0.5, 81.30, AssessmentType.EXAM);
-                module.addAssessment(assessment);
-            year.addModule(module);
+        module = new Module("SOFT253", "Computer Science Immersive Introduction", 20);
+        assessment = new Assessment(0.5, 64.00, AssessmentType.COURSEWORK);
+        module.addAssessment(assessment);
+        assessment = new Assessment(0.5, 81.30, AssessmentType.EXAM);
+        module.addAssessment(assessment);
+        year.addModule(module);
             
-            module = new Module("AINT252", "Computation Theory & Artificial Intelligence", 20);
-                assessment = new Assessment(0.5, 81.67, AssessmentType.COURSEWORK);
-                module.addAssessment(assessment);
-                assessment = new Assessment(0.5, 75.00, AssessmentType.EXAM);
-                module.addAssessment(assessment);
-            year.addModule(module);
+        module = new Module("AINT252", "Computation Theory & Artificial Intelligence", 20);
+        assessment = new Assessment(0.5, 81.67, AssessmentType.COURSEWORK);
+        module.addAssessment(assessment);
+        assessment = new Assessment(0.5, 75.00, AssessmentType.EXAM);
+        module.addAssessment(assessment);
+        year.addModule(module);
         this.addYear(year);
         
         //Year 3
         year = new Year(0.60);
+        
+        module = new Module("SOFT351", "Programming for Entertainment Systems", 20);
+        assessment = new Assessment(0.4, 72.00, AssessmentType.COURSEWORK);
+        module.addAssessment(assessment);
+        assessment = new Assessment(0.6, 0.00, AssessmentType.COURSEWORK);
+        module.addAssessment(assessment);
+        year.addModule(module);
+        
+        module = new Module("ISAD361", "Advanced Databases & Data Management", 20);
+        assessment = new Assessment(0.65, 0.00, AssessmentType.COURSEWORK);
+        module.addAssessment(assessment);
+        assessment = new Assessment(0.35, 0.00, AssessmentType.EXAM);
+        module.addAssessment(assessment);
+        year.addModule(module);
+        
+        module = new Module("AINT351", "Machine Learning", 20);
+        assessment = new Assessment(0.70, 0.00, AssessmentType.COURSEWORK);
+        module.addAssessment(assessment);
+        assessment = new Assessment(0.30, 0.00, AssessmentType.EXAM);
+        module.addAssessment(assessment);
+        year.addModule(module);
+        
+        module = new Module("LAW3239", "Cybercrime: Issues & Regulation", 20);
+        assessment = new Assessment(1.0, 0.00, AssessmentType.COURSEWORK);
+        module.addAssessment(assessment);
+        year.addModule(module);
+        
+        module = new Module("PRCO304", "Computing Project", 40);
+        assessment = new Assessment(1.0, 0.00, AssessmentType.COURSEWORK);
+        module.addAssessment(assessment);
+        year.addModule(module);
+        
+        this.addYear(year);
 /*            module = new Module("MATH1607PP", "The Quantum Universe", 20);
                 assessment = new Assessment(1.0, 0.00, AssessmentType.COURSEWORK);
                 module.addAssessment(assessment);
