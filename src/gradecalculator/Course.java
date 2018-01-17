@@ -115,7 +115,7 @@ public class Course {
         year.addModule(module);
         
         module = new Module("ISAD361", "Advanced Databases & Data Management", 20);
-        assessment = new Assessment(0.65, 0.00, AssessmentType.COURSEWORK);
+        assessment = new Assessment(0.65, 72.00, AssessmentType.COURSEWORK);
         module.addAssessment(assessment);
         assessment = new Assessment(0.35, 0.00, AssessmentType.EXAM);
         module.addAssessment(assessment);
