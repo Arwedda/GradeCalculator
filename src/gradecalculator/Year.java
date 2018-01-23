@@ -41,11 +41,19 @@ public class Year {
     
     public Double calculateYearGrade(){
         Double yearGrade = 0.00;
+        boolean finalYear = false;
         
         for (Module thisModule : this.arlModules){
             yearGrade += thisModule.calculateModuleGrade();
+            if (thisModule.getCredits() == 40){
+                finalYear = true;
+                yearGrade += thisModule.calculateModuleGrade();
+            }
         }
         
+        if (finalYear){
+            return yearGrade / (arlModules.size() + 1);
+        }
         return yearGrade / arlModules.size();
     }
 }

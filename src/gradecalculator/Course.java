@@ -23,7 +23,6 @@ public class Course {
         //Year 1
         Year year = new Year(0.10);
 /*          Discard lowest 2 grades for first year
-
             Module module = new Module("ISAD151", "Databases: Analysis, Design & Development", 20);
             Assessment assessment = new Assessment(0.6, 89.00, AssessmentType.COURSEWORK);
             module.addAssessment(assessment);
@@ -117,7 +116,7 @@ public class Course {
         module = new Module("ISAD361", "Advanced Databases & Data Management", 20);
         assessment = new Assessment(0.65, 72.00, AssessmentType.COURSEWORK);
         module.addAssessment(assessment);
-        assessment = new Assessment(0.35, 0.00, AssessmentType.EXAM);
+        assessment = new Assessment(0.35, 72.00, AssessmentType.EXAM);
         module.addAssessment(assessment);
         year.addModule(module);
         
@@ -141,11 +140,6 @@ public class Course {
         year.addModule(module);
         
         this.addYear(year);
-/*            module = new Module("MATH1607PP", "The Quantum Universe", 20);
-                assessment = new Assessment(1.0, 0.00, AssessmentType.COURSEWORK);
-                module.addAssessment(assessment);
-            year.addModule(module);
-        this.addYear(year);*/
         
         System.out.println(this.calculateCourseGrade());
     }
