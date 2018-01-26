@@ -123,7 +123,7 @@ public class Course {
         module = new Module("AINT351", "Machine Learning", 20);
         assessment = new Assessment(0.35, 83.00, AssessmentType.COURSEWORK);
         module.addAssessment(assessment);
-        assessment = new Assessment(0.35, 0.00, AssessmentType.COURSEWORK);
+        assessment = new Assessment(0.35, 81.00, AssessmentType.COURSEWORK);
         module.addAssessment(assessment);
         assessment = new Assessment(0.30, 0.00, AssessmentType.EXAM);
         module.addAssessment(assessment);
