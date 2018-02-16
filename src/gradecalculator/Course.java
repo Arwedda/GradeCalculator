@@ -125,7 +125,7 @@ public class Course {
         module.addAssessment(assessment);
         assessment = new Assessment(0.35, 81.00, AssessmentType.COURSEWORK);
         module.addAssessment(assessment);
-        assessment = new Assessment(0.30, 0.00, AssessmentType.EXAM);
+        assessment = new Assessment(0.30, 75.00, AssessmentType.EXAM);
         module.addAssessment(assessment);
         year.addModule(module);
         
