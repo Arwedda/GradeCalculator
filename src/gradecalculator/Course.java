@@ -109,7 +109,7 @@ public class Course {
         module = new Module("SOFT351", "Programming for Entertainment Systems", 20);
         assessment = new Assessment(0.4, 72.00, AssessmentType.COURSEWORK);
         module.addAssessment(assessment);
-        assessment = new Assessment(0.6, 0.00, AssessmentType.COURSEWORK);
+        assessment = new Assessment(0.6, 75.00, AssessmentType.COURSEWORK);
         module.addAssessment(assessment);
         year.addModule(module);
         
