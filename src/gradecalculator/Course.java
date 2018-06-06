@@ -130,7 +130,9 @@ public class Course {
         year.addModule(module);
         
         module = new Module("LAW3239", "Cybercrime: Issues & Regulation", 20);
-        assessment = new Assessment(1.0, 0.00, AssessmentType.COURSEWORK);
+        assessment = new Assessment(0.5, 66.00, AssessmentType.COURSEWORK);
+        module.addAssessment(assessment);
+        assessment = new Assessment(0.5, 72.00, AssessmentType.COURSEWORK);
         module.addAssessment(assessment);
         year.addModule(module);
         
